@@ -15,11 +15,11 @@
     font-size: xx-larger;
     padding-bottom: 2rem;
     margin-bottom: 2rem;
-    /*transition: padding-top 4s; nur drin für die Checklist*/
+    transition: padding-top 4s; /*nur drin für die Checklist*/
 }
-/*.main-header:hover{
+.main-header:hover{
     padding: 7rem;
-}*/
+}
 
 .middle{
 
