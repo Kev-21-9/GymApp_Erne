@@ -6,14 +6,17 @@
     <meta name="description" content="FitnessApp" />
     <meta name="keywords" content="Fitness, App, Gym, Training" />
     <meta name="author" content="Kevin Erne" />
+    <link rel="stylesheet" href="styles.css" />
     <title>GymApp</title>
   </head>
   <body>
-    <header>
-        <h1>Startseite</h1>
+    <header class="main-header">
+        <h1>GetFit</h1>
+        
     </header>
     <main>
-        <table>
+    
+        <table class="table-styling">
             <tr>
                 <td>Montag</td>
                 <td>Dienstag</td>
@@ -28,6 +31,8 @@
             </tr>
         </table>
         <br>
+        <hr>
+        <br>
         <table>
             <tr>
                 <td>Freitag</td>
@@ -40,8 +45,13 @@
                 <td>Frei</td>
             </tr>
         </table>
-        <p>Heute steht <em>ein</em> Workout an</p>
+        <p id="noti">Heute steht <em class="just-orange-font">ein</em> Workout an</p>
     </main>
-    <footer>Home, Workout, Wasser, Waage</footer>
+    <footer class="middle">
+        <a class="orange-font">Home</a>             
+        <a href="./GymApp_Erne_Workout.html">Workout</a>
+        <a>Wasser</a>
+        <a>Waage</a>
+    </footer>
   </body>
 </html>
