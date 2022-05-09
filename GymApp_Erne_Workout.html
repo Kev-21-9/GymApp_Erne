@@ -7,6 +7,8 @@
     <meta name="keywords" content="Fitness, App, Gym, Training" />
     <meta name="author" content="Kevin Erne" />
     <link rel="stylesheet" href="styles.css" />
+    <script src="function.js" defer></script>
+
     <title>GymApp</title>
   </head>
   <body>
@@ -14,7 +16,11 @@
         <h1 class="new-font">Workout</h1>
     </header>
     <main>
-        <button class="orange button-size">+</button>
+        <form onsubmit="addWorkout()">
+            <input class="orange" type="New Workout" id="workoutfield">
+            <button type="submit" class="orange button-size">+</button>  
+        </form>        
+        <hr class="margin">
         <br>
         <a class="workout-box-head">Push</a>
         <table>
@@ -35,6 +41,9 @@
         <hr class="margin">
         <br>
         <br>
+        <ul id="workoutlist">
+            
+        </ul>
     </main>
     <footer class="middle">
         <a href="./GymApp_Erne_Startseite.html">Home</a>             
