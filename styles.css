@@ -53,6 +53,11 @@
     color: black;
 }
 
+.newButton:active{
+    background-color: bisque;
+    color: black;
+}
+
 #pseudoelement::after{/*Nur drin für Checkliste*/
     content: " <- Das ist der Name deines Workouts";
     color: black;
@@ -156,4 +161,9 @@ input{
 
 input:hover{
     background-color: bisque;
+}
+
+.newButton{
+    width: 5rem;
+    font-size: larger;
 }
